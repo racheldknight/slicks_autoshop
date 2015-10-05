@@ -1,0 +1,151 @@
+/*
+Theme Name: Slicks
+Theme URI: http://www.rachel-knight.com/Slicks_Autoshop/
+Author: Rachel Knight
+Description: Theme for Slick's Auto Shop
+Version: 0.1
+License: Open
+Text Domain: slicks_autshop_theme
+*/
+
+@import url("css/normalize.css");
+@import url("css/skeleton.css");
+
+.wrapper {
+    width: 100%;
+}
+
+.bg-color {
+    background-color: #193441;
+}
+
+.header-border {
+    border-bottom: 1px solid #e9e9e9;
+    margin-bottom: 10px;
+    padding-top: 20px;
+}
+
+h1, h2, h3, p, a {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3 {
+    color: #193441;
+}
+
+.container a {
+    color: #BABABA;
+}
+
+.container a:hover {
+    color: #193441;
+}
+
+h1 a {
+    text-decoration: none;
+}
+
+.twelve h1 {
+    text-align: center;
+}
+
+.header p {
+        text-align: right;
+    }
+
+.eight h4 {
+    margin-top: 30px;
+}
+
+.menu ul {
+    margin: 0; 
+    padding: 0; 
+    list-style-type: none; 
+    list-style-image: none; 
+}
+
+.menu li {
+    display: inline;
+}
+
+.menu li a {
+    text-decoration: none;  
+    margin: 4px;
+    padding: 11px; 
+    font-size: 2.0rem;
+    color: #193441;
+}
+
+.menu a:hover {
+    border-bottom: 2px solid #193441;
+}
+
+.current-menu-item {
+    border-bottom: 2px solid #193441;
+    padding-bottom: 11px; 
+}
+
+.container .btn, .button-submit {
+    color: #193441;
+    padding: 10px 17px;
+    border: 1px solid #193441;
+    border-radius: 3px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container .btn:hover, .button-submit:hover {
+    background-color: #193441;
+    color: #fff;
+}
+
+.border {
+    border: 1px solid #e9e9e9;
+}
+
+.sidebar {
+    background-color: #e9e9e9;
+    padding: 20px;
+}
+
+.eight .btn {
+    margin-bottom: 20px;
+}
+
+.widget-offers {
+    padding: 20px;
+    background-color: #e9e9e9;
+}
+
+.widget-posts {
+    padding-top: 20px;
+}
+
+.blog-widget ul, .about-widget ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+.wdform-label, .wdform_select, .wdform_select option, textarea, .mini_label, .form9 input[type="text"] {
+    font-family: 'Roboto', sans-serif;
+}
+
+.wc-shortcodes-accordion-trigger {
+    background-color: #e9e9e9;
+}
+
+.wc-shortcodes-accordion-trigger a {
+    color: #193441;
+    text-decoration: none;
+}
+
+footer {
+    width: 100%;
+    background-color: #193441;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+footer p, h4, a {
+    color: #fff;
+}
